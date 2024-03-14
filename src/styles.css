@@ -53,14 +53,14 @@ main {
 }
 
 .current-city {
-    font-size: 38px;
+    font-size: 60px;
     font-weight: 900;
     margin: 0;
 }
 
 .current-details {
     color: #00204a;
-    font-size: 16px;
+    font-size: 45px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -72,12 +72,12 @@ main {
 .current-temperature-icon {
     position: relative;
     top: -8px;
-    font-size: 40px;
+    font-size: 200px;
     margin-right: 10px;
 }
 
 .current-temperature-value {
-    font-size: 80px;
+    font-size: 100px;
     font-weight: bold;
 }
 
