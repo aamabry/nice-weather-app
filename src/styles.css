@@ -1,18 +1,7 @@
 body {
     background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        font-family: "Tangerine", cursive;
 
-    .tangerine-regular {
-        font-family: "Tangerine", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .tangerine-bold {
-        font-family: "Tangerine", cursive;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
 }
 
 a {
