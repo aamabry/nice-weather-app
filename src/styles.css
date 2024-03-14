@@ -1,7 +1,9 @@
 body {
-    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-        font-family: "Tangerine", cursive;
-        background-position: center;
+    background: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -16,14 +18,13 @@ a {
     border-radius: 30px;
     box-shadow: 0 30ox 50px #00204a;
 }
-ß
 header{
     border-block-end: 1px solid white;
     padding-block-end: 30px;
 }
 
 .search-input {
-    background-color: white ;
+    background-color: rgb(248, 157, 61) ;
     border: none;
     color: #00204a;
     font-size: 16px;
