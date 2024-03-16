@@ -9,7 +9,7 @@ a {
 
 .weather-app {
     background: #f8f398;
-    max-inline-size: 800px;
+    max-inline-size: 700px;
     margin: 40px auto;
     padding: 30px;
     border-radius: 25px;
@@ -51,7 +51,7 @@ main {
 }
 
 .current-temperature {
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .current-weather {
@@ -60,13 +60,13 @@ main {
 }
 
 .current-city {
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
 }
 
 .current-details {
     color: rgba(30, 33, 66, 0.4);
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
 }
 
@@ -82,12 +82,12 @@ main {
 }
 
 .current-temperature-value {
-    font-size: 60px;
+    font-size: 55px;
 
 }
 
 .current-temperature-unit {
-    font-size: 30x;
+    font-size: 20x;
     position: relative;
     inset-block-start: -20px;
 }
