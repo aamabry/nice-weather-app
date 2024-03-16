@@ -3,7 +3,7 @@ function search(event) {
     let searchInputElement = document.querySelector("#search-input");
     let cityElement = document.querySelector("#current-city");
     cityElement.innerHTML = searchInputElement.ariaValueMax;
-    apiCity = searchInputElement.ariaValueMax;
+    apiCity = searchInputElement.value;
     fetchData();
 }
 
