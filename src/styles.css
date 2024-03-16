@@ -1,34 +1,33 @@
 body {
     background: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
-    background-size: cover;
     font-family: "Madimi One", sans-serif;
 }
   
 a {
-    color: #885df1;
+    color: #e46161;
 }
 
 .weather-app {
     background: #f8f398;
     max-inline-size: 600px;
-    margin: 60px auto;
+    margin: 80px auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
    }
 
 header{
-border-block-end: 1px solid #f9f7fe;
-padding-block-end: 30px;
+border-block-end: 1px solid #eaef66;
+padding-block-end: 40px;
 }
 
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #f8f7dd;
   border: none;
   color: rgba(30, 33, 66, 0.4);
   font-size: 16px;
   padding: 20px;
-  inline-size: 75%;
+  inline-size: 50%;
   border-radius: 6px;
 }
 
