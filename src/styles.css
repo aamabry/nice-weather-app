@@ -1,8 +1,6 @@
 body {
     background: #f9f7fe;
     font-family: 'Courier New', Courier, monospace;
-  
-
 }
 
 a {
@@ -11,7 +9,7 @@ a {
 
 .weather-app {
     background: white;
-    max-width: 600px;
+    max-inline-size: 600px;
     margin: 60px auto;
     padding: 30px;
     border-radius: 10px;
@@ -19,8 +17,8 @@ a {
    }
 
 header{
-border-bottom: 1px solid #f9f7fe;
-padding-bottom: 30px;
+border-block-end: 1px solid #f9f7fe;
+padding-block-end: 30px;
 }
 
 .search-input {
@@ -29,12 +27,12 @@ padding-bottom: 30px;
   color: rgba(30, 33, 66, 0.4);
   font-size: 16px;
   padding: 20px;
-  width: 75%;
+  inline-size: 75%;
   border-radius: 6px;
 }
 
 .search-button {
-    margin-left: 5px;
+    margin-inline-start: 5px;
     font-size: 16px;
     background-color: #885df1;
     color: white;
@@ -76,9 +74,9 @@ main {
 
 .cureent-temperature-icon {
     position: relative;
-    top: -8px;
+    inset-block-start: -8px;
     font-size: 40px;
-    margin-right: 10px;
+    margin-inline-end: 10px;
 }
 
 .current-temperature-value {
@@ -89,11 +87,11 @@ main {
 .current-temperature-unit {
     font-size: 28px;
     position: relative;
-    top: -38px;
+    inset-block-start: -38px;
 }
 
 footer {
-    border-top: 1px solid #f9f7fe;
+    border-block-start: 1px solid #f9f7fe;
     text-align: center;
     color: rgba(30, 33, 66, 0.4);
 }
