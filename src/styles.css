@@ -1,7 +1,13 @@
 body {
     background: #f9f7fe;
-    font-family: 'Courier New', Courier, monospace;
 }
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 a {
     color: #885df1;
