@@ -22,7 +22,7 @@ padding-block-end: 40px;
 }
 
 .search-input {
-    display: inline;
+    display: inline-block;
   background-color: #f8f7dd;
   border: none;
   color: rgba(30, 33, 66, 0.4);
