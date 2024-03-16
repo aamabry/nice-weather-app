@@ -31,7 +31,6 @@ padding-block-end: 20px;
 }
 
 .search-button {
-    display: inline-block;
     font-size: 16px;
     background-color: #E359A2;
     color: rgb(46, 42, 42);
@@ -54,7 +53,7 @@ main {
 }
 
 .current-city {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     margin: 0;
 }
