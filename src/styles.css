@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    background-repeat: no-repeat;
     font-family: "Madimi One", sans-serif;
 }
   
