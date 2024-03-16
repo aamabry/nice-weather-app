@@ -57,14 +57,12 @@ main {
 
 .current-city {
     font-size: 80px;
-    font-weight: 900;
     margin: 0;
 }
 
 .current-details {
     color: rgba(30, 33, 66, 0.4);
     font-size: 30px;
-    font-weight: 400;
     line-height: 40px;
 }
 
@@ -81,7 +79,7 @@ main {
 
 .current-temperature-value {
     font-size: 60px;
-    font-weight: bold;
+
 }
 
 .current-temperature-unit {
