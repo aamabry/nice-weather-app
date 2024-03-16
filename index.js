@@ -2,7 +2,20 @@ function search(event) {
     event.preventDefault();
     let searchInputElement = document.querySelector("#search-input");
     let cityElement = document.querySelector("#current-city");
+    let descriptionElement = document.querySelector("#description");
+    let humidityElement = document.querySelector("#humidity");
+    let windSpeedElement = document.querySelector("#wind-speed");
+    let timeElement = document.querySelector("#time");
+    let iconElement = document.querySelector("#icon");
+
+
     cityElement.innerHTML = searchInputElement.value;
+    timeElement.innerHTML = formatDate(date);
+    descriptionElement.innerHTML = response.data.condition.description;
+    humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+    windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon/>`;
+
     apiCity = searchInputElement.value;
     fetchData();
 }
