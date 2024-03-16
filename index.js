@@ -7,7 +7,7 @@ function search(event) {
     fetchData();
 }
 
-function formateDate(date) {
+function formatDate(date) {
     let minutes = date.getMinutes();
     let hours = date.getHours();
     let day = date.getDay();
