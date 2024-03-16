@@ -32,6 +32,7 @@ padding-block-end: 40px;
 }
 
 .search-button {
+    display: inline-block;
     margin-inline-start: 5px;
     font-size: 16px;
     background-color: #885df1;
