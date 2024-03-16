@@ -39,7 +39,7 @@ function showTemperature(response) {
     temperatureElement.innerHTML = Math.round(response.data.temperature.current);
 }
 
-function fetchDate() {
+function fetchData() {
     let apiKey = "1b509431b344bbaa8c5fo44ef08bca6t";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${apiCity}&key=${apiKey}`;
     axios.get(apiUrl).then(showTemperature);
