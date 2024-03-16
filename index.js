@@ -12,11 +12,11 @@ function formatDate(date) {
     let hours = date.getHours();
     let day = date.getDay();
 
-    if (minutes <10) {
+    if (minutes < 10) {
         minutes =`0${minutes}`;
     }
 
-    if (hours <10) {
+    if (hours < 10) {
         hours = `0${hours}`;
     }
 
@@ -49,5 +49,5 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
 let currentDateElement = document.querySelector("#current-date");
-let curentDate = new Date();
-currentDateElement.innerHTML = formateDate(currentDate);
+let currentDate = new Date();
+currentDateElement.innerHTML = formatDate(currentDate);
