@@ -28,7 +28,6 @@ padding-block-end: 20px;
   color: rgba(30, 33, 66, 0.4);
   font-size: 16px;
   padding: 10px;
-  inline-size: 50%;
   border-radius: 6px;
 }
 
@@ -39,7 +38,7 @@ padding-block-end: 20px;
     color: rgb(46, 42, 42);
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 main {
